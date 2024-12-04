@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Management</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="box bg-light mt-5 p-4 container col-lg-6 col-md-8">
+      <div class="text d-flex align-items-center mb-4">
+        <h3 class="mb-0">To-Do-List</h3>
+        <img class="img-fluid" src="images/3d-notes-icon-png.png" alt="" />
+      </div>
+      <div class="input-group mb-5">
+        <input
+          id="task-text"
+          type="text"
+          class="p-2"
+          placeholder="Add your Task"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+        <button
+          id="btn"
+          type="button"
+          class="btn btn-danger rounded-5 position-absolute px-md-5 py-2"
+        >
+          Add
+        </button>
+      </div>
+      <div class="tasks" id="tasks"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c7be939029.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

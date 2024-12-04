@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  background-size: cover; /* Make the gradient fill the entire body */
+  background-repeat: repeat-y; /* Prevent the gradient from repeating */
+  margin: 0; /* Remove any default margin */
+}
+.box {
+  border-radius: 10px;
+}
+.box .text img {
+  width: 50px;
+}
+.box .text h3 {
+  color: rgb(18, 27, 117);
+}
+.box input {
+  background-color: #eee;
+  border-radius: 20px;
+  width: 650px;
+  border-style: none;
+  outline: none;
+}
+
+.box button {
+  right: -15px;
+  z-index: 10;
+}
+/* CSS */
+#checkIcon {
+  cursor: pointer;
+}
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  border-radius: 50%; /* Makes the div circular */
+  transition: background-color 0.3s ease;
+}
+
+.icon-circle:hover {
+  background-color: #eee; /* Background color on hover */
+  cursor: pointer;
+}
+.checked {
+  color: #28a745; /* Bootstrap success color */
+  transform: scale(1.7);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.nvisible {
+  display: none;
+}
+.title {
+  cursor: pointer;
+}
